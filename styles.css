@@ -1,0 +1,60 @@
+
+.main_container{
+width:100%;
+height:1000%;
+/*background:yellow;*/
+
+}
+
+.all_buttons{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background:white;
+  z-index:100;
+}
+.box_1{
+width:100%;
+height:200px;
+/*background:red;*/
+border-style: solid;
+margin:auto;
+
+
+}
+
+#marker{
+color:red;
+position:relative;
+font-weight:bold;
+left:97px;
+font-size:20px;}
+
+.tab_lines{
+margin:auto;
+margin-top:20px;
+width:90%;
+height:0px;
+border-style: outset;
+border-width: 1px;
+border-color: black;
+background:black;
+z-index:-1;
+
+}
+.string_one,.string_two{
+width:2%;
+height:20px;
+//border-style:solid;
+position:relative;
+top:-14px;
+left:0px;
+z-index:1;
+color:green;
+font-size:24px;
+font-weight: bold;
+//background:white;
+display: inline-block;
+text-align: center;
+margin-left:17px;
+}
